@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Buscar CEP</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="titulo">
+            <h2>Busca CEP</h2>
+            <div id="qtdCarac">
+                <label for="cep">
+                    <input id="nmrCepBusca" type="text" maxlength="8" placeholder="CEP">
+                    <button type="button" class="btn btn-secondary" id="btnBuscar">Buscar</button>
+                </label>
+            </div>
+        </div>
+
+        <div id="conteudo" class="form-control">
+            <div id="resultadoEndereco" class="col">
+                <h3><span id="nmrCepResultado"></span></h3>
+                <h4 id="endereco"></h4>
+            </div>
+            <!-- <div id="resultadoMapa" class="col">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3742.7869783078227!2d-40.413798585144164!3d-20.267667554131794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb83b3f70b18693%3A0xb30eb3133f39ff02!2sR.%20Esmeraldo%20Rodrigues%20de%20Freitas%20-%20Cariacica%20Sede%2C%20Cariacica%20-%20ES%2C%2029156-003!5e0!3m2!1spt-BR!2sbr!4v1663587380616!5m2!1spt-BR!2sbr" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div> -->
+        </div>
+
+    </div>
+</body>
+<script src="./script.js"></script>
+
+</html>

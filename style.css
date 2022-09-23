@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+    *{
+        box-sizing: border-box;
+        font-family: "Poppins" , sans-serif;
+    }
+
+    body{
+        min-height: 100vh;
+        width: 100%;
+        /* max-width: 768px; */
+        background: whitesmoke;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .container {
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        max-width: 740px;
+        background-color: #F6F6F6;
+        height: 250px;
+        box-shadow: 0px -2px 11px 0px rgb(186 186 186 / 75%);
+    }
+
+    #conteudo {
+        display: flex;
+        flex-direction: row;
+        height: 119px;
+        width: auto;
+    }
+
+    #nmrCepBusca{
+        height: 38px;
+    }
+
+    #titulo {
+        margin: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    
